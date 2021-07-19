@@ -42,7 +42,7 @@ font-family: "Times New Roman", Times, serif;
 .heading {
   background-color: #A52265;
   border: solid 1px #A52260;
-  height: 200px;
+  height: 80px;
 }
 .about{
   border: solid 1px #A52260;
@@ -60,7 +60,7 @@ font-family: "Times New Roman", Times, serif;
 .myTitle {
   display: flex;
   color: white;
-  font-size: 50px;
+  font-size: 25px;
   font-style: italic;
   padding-left: 3%;
  padding-top:1%;
@@ -96,7 +96,7 @@ input[type=number]{
     <!-- Get input for predict the cancer -->
     <center>
     <form action= "/predict" method="POST">
-        <h1>Enter the values of atmospheric features </h1>
+        <h3>Enter the values of atmospheric features </h3>
         
     	<input type="number" name="mintemp" placeholder="mintemp" min="-6.0" max="29.7" step="0.01" required="required" />
         <input type="number" name="maxtemp" placeholder="maxtemp" min="2.0" max="42.6" step="0.01" required="required" />
@@ -122,7 +122,6 @@ input[type=number]{
 		<input type="number" name="temp3pm" placeholder="temp3pm" min="1.0" max="40.2" step="0.01" required="required" />
     	<input type="number" name="raintoday" placeholder="raintoday" min="-0.3" max="1.0" step="0.01" required="required" />
         <br>
-     
         
         <!-- Show button -->
         
